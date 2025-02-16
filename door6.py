@@ -20,6 +20,5 @@ def door6():
     else:
         print("Boo. You lose.")
         return -1
-    
-door6()
+
     
