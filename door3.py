@@ -1,3 +1,4 @@
+from drawings import happyPig, sadPig, confusedPig
 import random
 
 
@@ -17,24 +18,31 @@ def door3():
 
     if comp_choice == 1 and user_input == 3:
         print("Rock beats plow. You lose!")
+        sadPig()
         win = False
     elif comp_choice == 1 and user_input == 2:
         print("Hay beats rock. You win!")
+        happyPig()
         win = True
     elif comp_choice == 2 and user_input == 1:
         print("Hay beats rock. You lose!")
+        sadPig()
         win = False
     elif comp_choice == 2 and user_input == 3:
         print("Plow beats hay. You win!")
+        happyPig()
         win = True
     elif comp_choice == 3 and user_input == 2:
         print("Plow beats hay. You lose!")
+        sadPig()
         win = False
     elif comp_choice == 3 and user_input == 1:
         print("Rock beats plow. You win!")
+        happyPig()
         win = True
     elif comp_choice == user_input:
         print("DRAW")
+        sadPig()
         win = False
 
     print("Congratulations! You have completed Door 3.")
