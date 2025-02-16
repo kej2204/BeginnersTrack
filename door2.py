@@ -1,3 +1,4 @@
+from drawings import happyPig, sadPig, confusedPig
 def door2(): 
     print("Welcome to the trivia minigame. Only enter one-word answers. Answers are not case-sensitive. You must answer 3 questions correctly.")
     questions = ["What is the title of the satirical 1945 novel about farm animals who rebel against their human owner?", "What was the first group of people to use scarecrows?", "True or false: Mother pigs sing to their babies."]
@@ -11,10 +12,13 @@ def door2():
         user_guess = input("Enter your answer here: ").lower()
         if user_guess == answers[i]: #paranthesis for range/length, square brackets for lists
             print(success_message)
+            happyPig()
         else:
             print(fail_message_template + answers[i])
+            sadPig()
             return -1
         
     print("\nCongratulations! You passed round 2.")
+
     return 0
 
