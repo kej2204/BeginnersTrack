@@ -1,5 +1,6 @@
 #pip install wonderwords
 from wonderwords import RandomWord
+from drawings import happyPig, sadPig, confusedPig
 
 
 def hangman():
@@ -30,9 +31,9 @@ def hangman():
 
     if hiddenWord != word:
         print("You lost! The word was: " + word)
-        return "fail"
+        sadPig()
+        return -1
     elif hiddenWord == word:
         print("You won! The word was: " + word)
-        return "success"
-
-hangman()
+        happyPig()
+        return 1

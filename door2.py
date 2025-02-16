@@ -20,5 +20,5 @@ def door2():
         
     print("\nCongratulations! You passed round 2.")
 
-    return 0
+    return 1
 
