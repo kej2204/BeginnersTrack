@@ -1,22 +1,22 @@
 def confusedPig():
-    print("                (\\____/)")    
-    print("                / @__@ \\")
-    print("               (  (oo)  )")
-    print("                '-..~..-'")
-    print("                 /    \\ ")
-    print("               @/ ____ \\_")
-    print("              (/ /    \\ \\)")
-    print("               ( \\____/ )\n")
+    print("            (\\____/)")    
+    print("            / @__@ \\")
+    print("           (  (oo)  )")
+    print("            '-..~..-'")
+    print("             /    \\ ")
+    print("           @/ ____ \\_")
+    print("          (/ /    \\ \\)")
+    print("           ( \\____/ )\n")
 
 def happyPig():
-    print("               (\\____/)")    
-    print("               / @__@ \\")
-    print("              (+ (o o) +)")
-    print("               '-\\__/-'")
-    print("                /    \\ ")
-    print("              @/ ____ \\_")
-    print("             (/ /    \\ \\)")
-    print("              ( \\____/ )\n")
+    print("            (\\____/)")    
+    print("            / @__@ \\")
+    print("           (+ (o o) +)")
+    print("            '-\\__/-'")
+    print("             /    \\ ")
+    print("           @/ ____ \\_")
+    print("          (/ /    \\ \\)")
+    print("           ( \\____/ )\n")
 
 def sadPig():
     print("               (\\____/)")    
@@ -32,14 +32,14 @@ def oneTurnip():
             ascii_text  = """          
                    _      
                   |'     
-               '\\ |  /\\ 
-                 \\||/    
+               '\ |  /\\ 
+                 \||/    
                   ||     
                   /|     
                  _||_    
-                / __ \\   
+                / __ \   
                | (__) |  
-                \\____/    
+                \____/    
         """
             print(ascii_text)
 
@@ -48,14 +48,14 @@ def twoTurnips():
    
            _                   _
            |'                  |"
-        '\\ |  /\\            "\\ |  /\\
-          \\||/                \\||/
+        '\ |  /\\           "\ |  /\\
+          \||/                \||/
            /|                  |\\
            ||                  || 
           _||_                _||_  
-         / __ \\              / __ \\ 
+         / __ \              / __ \ 
         | (__) |            | (__) |
-         \\____/              \\____/ 
+         \____/              \____/ 
     """
         print(ascii_text)
 
@@ -64,20 +64,24 @@ def threeTurnips():
    
        _                   _                     _  
        |'                  |"                   |"
-    '\\ |  /\\            "\\ |  /\\             "\\ |  /\\
-      \\||/                \\||/                 \\||/
+    '\ |  /\\            "\ |  /\\             "\ |  /\\
+      \||/                \||/                 \||/
        ||                  |\\                   |\\
        /|                  |\\                   ||
       _||_                _||_                 _/\\_  
-     / __ \\              / __ \\               / __ \\ 
+     / __ \              / __ \               / __ \ 
     | (__) |            | (__) |             | (__) |
-     \\____/              \\____/               \\____/ 
+     \____/              \____/               \____/ 
     """
         print(ascii_text)
 
-threeTurnips()
-twoTurnips()
-oneTurnip()
+
+
+happyPig()
 confusedPig()
 sadPig()
-happyPig()
+oneTurnip()
+sadPig()
+twoTurnips()
+sadPig()
+threeTurnips()
