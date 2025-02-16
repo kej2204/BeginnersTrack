@@ -136,10 +136,3 @@ def threeBarnDoors():
         |/__________\\|         |/__________\\|         |/__________\\|
        """
        print(ascii_text)
-
-threeTurnips()
-twoTurnips()
-oneTurnip()
-threeBarnDoors()
-twoBarnDoors()
-oneBarnDoor()
