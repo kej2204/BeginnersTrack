@@ -11,6 +11,7 @@ def door1():
     while guess != answer and turn < max_attempts:
         if turn > 0: 
             print("Incorrect answer! Try again")
+            confusedPig()
         guess = input("Please enter your answer here: ").lower()
         turn += 1
 
