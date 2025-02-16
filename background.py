@@ -1,7 +1,7 @@
 from door1 import door1
 from door2 import door2
 from door3 import door3
-from hangman import hangman
+#from hangman import hangman
 from door5 import door5
 
 lives = 1
@@ -17,8 +17,8 @@ while play_again == 'y' and lives > 0:
         addition_to_lives = door2()
     elif user_input == '3':
         addition_to_lives = door3()
-    elif user_input == '4':
-        addition_to_lives = hangman()
+    #elif user_input == '4':
+       # addition_to_lives = hangman()
     elif user_input == '5':
         addition_to_lives = door5()
     else:

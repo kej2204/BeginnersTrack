@@ -44,6 +44,8 @@ def door3():
         print("DRAW")
         sadPig()
         win = False
+    else:
+        win = False
 
     print("Congratulations! You have completed Door 3.")
 
