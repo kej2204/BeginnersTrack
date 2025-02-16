@@ -1,8 +1,9 @@
 from door1 import door1
 from door2 import door2
 from door3 import door3
-#from hangman import hangman
+from hangman import hangman
 from door5 import door5
+from door6 import door6
 from drawings import oneTurnip, twoTurnips, threeTurnips, oneBarnDoor, twoBarnDoors, threeBarnDoors
 
 lives = 2
@@ -22,10 +23,10 @@ while play_again == 'y' and lives > 0:
         addition_to_lives = door3()
     elif user_input == '4':
         addition_to_lives = hangman()
-        print("DEBUG: Entering hangman()")
-
     elif user_input == '5':
         addition_to_lives = door5()
+    elif user_input == '6':
+        addition_to_lives = door6()
     else:
         continue
     lives += addition_to_lives
