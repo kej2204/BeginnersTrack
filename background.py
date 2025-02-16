@@ -1,5 +1,6 @@
 from door1 import door1
 from door2 import door2
+from door3 import door3
 
 lives = 1
 play_again = 'y'
@@ -12,6 +13,8 @@ while play_again == 'y' and lives > 0:
         addition_to_lives = door1()
     elif user_input == '2':
         addition_to_lives = door2()
+    elif user_input == '3':
+        addition_to_lives = door3()
     else:
         continue
     lives += addition_to_lives
